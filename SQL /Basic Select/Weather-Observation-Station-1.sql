@@ -1,0 +1,3 @@
+-- MySQL solution
+SELECT CITY, STATE
+FROM STATION
