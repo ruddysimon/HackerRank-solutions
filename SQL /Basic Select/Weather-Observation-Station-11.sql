@@ -1,0 +1,4 @@
+SELECT DISTINCT(CITY)
+FROM STATION
+WHERE NOT CITY LIKE '[a,e,i,o,u]%' OR
+    NOT CITY LIKE '%[a,e,i,o,u]';
